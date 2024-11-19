@@ -1,0 +1,52 @@
+2024-11-13 19:03:28.256 [info] [certificates] Removed 1 expired certificates
+2024-11-13 19:03:31.540 [error] [auth] auth: FetchError: 
+    at fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at listOnTimeout (node:internal/timers:545:9)
+    at processTimers (node:internal/timers:519:7)
+    at cachingFetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at pue.fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/network/helix.ts:93:22)
+    at fetchCopilotToken (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/auth/copilotToken.ts:195:16)
+    at authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/auth/copilotToken.ts:128:22)
+    at auth (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:40:25)
+    at authShowWarnings (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:131:25)
+    at oae.getCopilotToken (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:174:33)
+    at attemptAuthentication (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:58:9) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-11-13 19:03:31.540 [error] [auth] FetchError: 
+    at fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at listOnTimeout (node:internal/timers:545:9)
+    at processTimers (node:internal/timers:519:7)
+    at cachingFetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at pue.fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/network/helix.ts:93:22)
+    at fetchCopilotToken (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/auth/copilotToken.ts:195:16)
+    at authFromGitHubToken (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/auth/copilotToken.ts:128:22)
+    at auth (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:40:25)
+    at authShowWarnings (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:131:25)
+    at oae.getCopilotToken (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:174:33)
+    at attemptAuthentication (/root/.vscode-server/extensions/github.copilot-1.245.0/extension/src/auth.ts:58:9) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-11-13 19:03:31.915 [error] [default] Error sending telemetry FetchError: 
+    at fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/root/.vscode-server/extensions/github.copilot-1.245.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at pue.fetch (/root/.vscode-server/extensions/github.copilot-1.245.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: undefined,
+  erroredSysCall: undefined
+}

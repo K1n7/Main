@@ -1,0 +1,12 @@
+2024-11-19 19:20:26.540 [info] 
+
+
+
+
+2024-11-19 19:20:26.599 [info] Extension host agent started.
+2024-11-19 19:20:27.435 [info] Deleted uninstalled extension from disk github.copilot-chat /root/.vscode-server/extensions/github.copilot-chat-0.22.2
+2024-11-19 19:20:28.118 [info] [127.0.0.1][339a5204][ManagementConnection] New connection established.
+2024-11-19 19:20:28.121 [info] [127.0.0.1][6cc9afda][ExtensionHostConnection] New connection established.
+2024-11-19 19:20:28.287 [info] [127.0.0.1][6cc9afda][ExtensionHostConnection] <678> Launched Extension Host Process.
+2024-11-19 19:20:29.679 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-19 19:20:33.243 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 

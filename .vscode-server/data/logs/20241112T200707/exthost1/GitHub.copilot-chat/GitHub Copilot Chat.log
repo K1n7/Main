@@ -1,0 +1,106 @@
+2024-11-12 20:08:32.349 [info] Can't use the Electron fetcher in this environment.
+2024-11-12 20:08:32.350 [info] Using the Helix fetcher.
+2024-11-12 20:08:32.350 [info] Initializing Git extension service.
+2024-11-12 20:08:32.350 [info] Successfully activated the vscode.git extension.
+2024-11-12 20:08:32.350 [info] Enablement state of the vscode.git extension: true.
+2024-11-12 20:08:32.350 [info] Successfully registered Git commit message provider.
+2024-11-12 20:08:33.112 [info] Logged in as K1n7
+2024-11-12 20:08:33.187 [info] Removed 1 expired certificates
+2024-11-12 20:08:35.387 [info] Logged in as K1n7
+2024-11-12 20:08:36.049 [warning] Invalid copilot token: missing token: 403 
+2024-11-12 20:08:36.050 [info] copilot token chat_enabled: undefined, sku: 
+2024-11-12 20:08:36.053 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at EN.waitForChatEnabled (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:3181)
+    at EN.run (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:2900)
+    at eE.askToUpgradeAuthPermissions (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:611:2338): Failed to get copilot token
+2024-11-12 20:08:36.053 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as K1n7."
+2024-11-12 20:08:36.053 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:08:36.053 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)
+    at fE._registerLanguageModels (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:1810)
+    at async Promise.all (index 0)
+    at async Promise.allSettled (index 0)
+    at Ev.waitForActivationBlockers (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:25616)
+    at /root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:4068
+    at qPt (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:3881)
+    at B0.n (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+    at B0.m (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+    at B0.l (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-11-12 20:08:36.053 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:08:36.053 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2060)
+    at fE._registerEmbeddings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2559)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at Ev.waitForActivationBlockers (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:25616)
+    at /root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:4068
+    at qPt (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:1817:3881)
+    at B0.n (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+    at B0.m (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+    at B0.l (file:///root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-11-12 20:08:36.053 [info] activationBlocker from 'languageModelAccess' took for 2540ms
+2024-11-12 20:08:36.350 [info] Logged in as K1n7
+2024-11-12 20:08:36.748 [warning] Invalid copilot token: missing token: 403 
+2024-11-12 20:08:36.750 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as K1n7."
+2024-11-12 20:08:36.750 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:08:36.750 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at t (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2060)
+2024-11-12 20:22:54.550 [info] Logged in as K1n7
+2024-11-12 20:22:55.297 [warning] Invalid copilot token: missing token: 403 
+2024-11-12 20:22:55.298 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:22:55.298 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at Timeout.t [as _onTimeout] (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)
+2024-11-12 20:37:12.912 [info] Logged in as K1n7
+2024-11-12 20:37:13.487 [warning] Invalid copilot token: missing token: 403 
+2024-11-12 20:37:13.488 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:37:13.488 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at Timeout.t [as _onTimeout] (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)
+2024-11-12 20:51:29.386 [info] Logged in as K1n7
+2024-11-12 20:51:30.112 [warning] Invalid copilot token: missing token: 403 
+2024-11-12 20:51:30.114 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-12 20:51:30.114 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at Timeout.t [as _onTimeout] (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)
+2024-11-13 19:00:30.577 [info] Logged in as K1n7
+2024-11-13 19:00:31.727 [warning] Invalid copilot token: missing token: 403 
+2024-11-13 19:00:31.731 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-11-13 19:00:31.731 [error] Error: No access to GitHub Copilot found. You are currently logged in as K1n7.
+    at iE._authShowWarnings (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:3084)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at iE.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:613:2135)
+    at jk.getCopilotToken (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:282:37843)
+    at fE._getAuthSession (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:2597)
+    at Timeout.t [as _onTimeout] (/root/.vscode-server/extensions/github.copilot-chat-0.22.2/dist/extension.js:628:631)

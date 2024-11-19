@@ -1,0 +1,254 @@
+2024-11-18 19:20:22.365 [info] [main] Log level: Info
+2024-11-18 19:20:22.365 [info] [main] Validating found git in: "git"
+2024-11-18 19:20:22.365 [info] [main] Using git "2.43.0" from "git"
+2024-11-18 19:20:22.365 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-18 19:20:22.366 [info] > git rev-parse --show-toplevel [754ms]
+2024-11-18 19:20:22.403 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-18 19:20:22.417 [info] [Model][openRepository] Opened repository: /root
+2024-11-18 19:20:22.434 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-18 19:20:22.437 [info] > git config --get commit.template [11ms]
+2024-11-18 19:20:22.451 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-18 19:20:22.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-18 19:20:22.459 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:20:22.475 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-18 19:20:22.481 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2024-11-18 19:20:22.484 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-18 19:20:22.506 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-18 19:20:22.515 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-11-18 19:20:22.520 [info] [Model][openRepository] Opened repository: /root/exercises
+2024-11-18 19:20:22.526 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-18 19:20:22.553 [info] > git config --get commit.template [22ms]
+2024-11-18 19:20:22.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ignore-them refs/remotes/ignore-them [94ms]
+2024-11-18 19:20:22.657 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/exercises/.git/refs/remotes/origin/ignore-them'
+2024-11-18 19:20:22.659 [info] > git rev-parse refs/remotes/origin/ignore-them [2ms]
+2024-11-18 19:20:22.675 [info] > git status -z -uall [13ms]
+2024-11-18 19:20:23.185 [info] > git check-ignore -v -z --stdin [59ms]
+2024-11-18 19:20:23.186 [info] > git check-ignore -v -z --stdin [57ms]
+2024-11-18 19:20:23.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [520ms]
+2024-11-18 19:20:23.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ignore-them refs/remotes/ignore-them [26ms]
+2024-11-18 19:20:25.432 [info] > git config --get commit.template [2202ms]
+2024-11-18 19:20:25.489 [info] > git status -z -uall [3025ms]
+2024-11-18 19:20:25.490 [info] > git ls-files --stage -- /root/index.html [64ms]
+2024-11-18 19:20:25.496 [info] > git config --local branch.ignore-them.vscode-merge-base [2254ms]
+2024-11-18 19:20:25.497 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-18 19:20:27.313 [info] > git show --textconv :index.html [1892ms]
+2024-11-18 19:20:27.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1539ms]
+2024-11-18 19:20:27.313 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:20:27.314 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2024-11-18 19:20:27.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ignore-them refs/remotes/ignore-them [1792ms]
+2024-11-18 19:20:27.317 [info] > git reflog ignore-them --grep-reflog=branch: Created from *. [1808ms]
+2024-11-18 19:20:27.323 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1828ms]
+2024-11-18 19:20:27.405 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/exercises/.git/refs/remotes/origin/ignore-them'
+2024-11-18 19:20:27.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/ignore-them [87ms]
+2024-11-18 19:20:27.423 [info] > git config --get commit.template [117ms]
+2024-11-18 19:20:27.427 [info] > git config --local branch.ignore-them.vscode-merge-base origin/ignore-them [6ms]
+2024-11-18 19:20:27.429 [info] > git rev-parse refs/remotes/origin/ignore-them [25ms]
+2024-11-18 19:20:27.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ignore-them refs/remotes/ignore-them [23ms]
+2024-11-18 19:20:27.542 [info] > git config --get commit.template [79ms]
+2024-11-18 19:20:27.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [90ms]
+2024-11-18 19:20:27.543 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:20:27.556 [info] > git config --local branch.ignore-them.vscode-merge-base [81ms]
+2024-11-18 19:20:27.568 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-11-18 19:20:27.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ignore-them refs/remotes/ignore-them [3ms]
+2024-11-18 19:20:27.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/ignore-them refs/remotes/origin/ignore-them [9ms]
+2024-11-18 19:20:27.582 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/exercises/.git/refs/remotes/origin/ignore-them'
+2024-11-18 19:20:27.583 [info] > git merge-base refs/heads/ignore-them refs/remotes/origin/ignore-them [7ms]
+2024-11-18 19:20:27.589 [info] > git rev-parse refs/remotes/origin/ignore-them [8ms]
+2024-11-18 19:20:27.618 [info] > git status -z -uall [22ms]
+2024-11-18 19:20:27.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-18 19:20:27.643 [info] > git diff --name-status -z --diff-filter=ADMR 11edd38542b6ec7f13975bb7de12bb831d3a7bc1...refs/remotes/origin/ignore-them [56ms]
+2024-11-18 19:20:27.647 [info] > git merge-base refs/heads/ignore-them refs/remotes/origin/ignore-them [4ms]
+2024-11-18 19:20:27.656 [info] > git merge-base refs/heads/ignore-them refs/remotes/origin/ignore-them [29ms]
+2024-11-18 19:20:27.664 [info] > git diff --name-status -z --diff-filter=ADMR 11edd38542b6ec7f13975bb7de12bb831d3a7bc1...refs/remotes/origin/ignore-them [8ms]
+2024-11-18 19:20:27.666 [info] > git diff --name-status -z --diff-filter=ADMR 11edd38542b6ec7f13975bb7de12bb831d3a7bc1...refs/remotes/origin/ignore-them [5ms]
+2024-11-18 19:20:27.668 [info] > git status -z -uall [120ms]
+2024-11-18 19:20:32.600 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [2ms]
+2024-11-18 19:20:32.600 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:20:47.408 [info] > git show --textconv HEAD:index.html [23ms]
+2024-11-18 19:20:47.408 [info] > git show --textconv :index.html [16ms]
+2024-11-18 19:20:47.408 [info] > git ls-tree -l HEAD -- /root/index.html [11ms]
+2024-11-18 19:20:47.408 [info] fatal: Not a valid object name HEAD
+2024-11-18 19:20:47.411 [info] > git ls-files --stage -- /root/index.html [6ms]
+2024-11-18 19:20:47.417 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1ms]
+2024-11-18 19:20:47.517 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [19ms]
+2024-11-18 19:20:47.517 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:20:47.926 [info] > git check-ignore -v -z --stdin [9ms]
+2024-11-18 19:20:50.352 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [4ms]
+2024-11-18 19:20:50.352 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:21:02.353 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [2ms]
+2024-11-18 19:21:02.353 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:21:02.573 [info] > git show --textconv :index.html [5ms]
+2024-11-18 19:21:02.576 [info] > git ls-files --stage -- /root/index.html [4ms]
+2024-11-18 19:21:02.582 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1ms]
+2024-11-18 19:21:33.039 [info] > git config --get commit.template [6ms]
+2024-11-18 19:21:33.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-18 19:21:33.039 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:21:33.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-18 19:21:33.095 [info] > git status -z -uall [52ms]
+2024-11-18 19:21:44.282 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/Moringa School code [1ms]
+2024-11-18 19:21:44.282 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:21:44.508 [info] > git show --textconv :Moringa School code [9ms]
+2024-11-18 19:21:44.511 [info] > git ls-files --stage -- /root/Moringa School code [5ms]
+2024-11-18 19:21:46.116 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [2ms]
+2024-11-18 19:21:46.116 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:21:46.321 [info] > git show --textconv :index.html [5ms]
+2024-11-18 19:21:46.324 [info] > git ls-files --stage -- /root/index.html [4ms]
+2024-11-18 19:21:46.329 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1ms]
+2024-11-18 19:27:10.039 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [2ms]
+2024-11-18 19:27:10.039 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:27:10.272 [info] > git show --textconv :styles.css [16ms]
+2024-11-18 19:27:10.274 [info] > git ls-files --stage -- /root/styles.css [9ms]
+2024-11-18 19:27:10.446 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-18 19:27:10.913 [info] > git config --get commit.template [6ms]
+2024-11-18 19:27:10.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-18 19:27:10.914 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:27:10.927 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-18 19:27:10.987 [info] > git status -z -uall [68ms]
+2024-11-18 19:27:13.316 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [12ms]
+2024-11-18 19:27:13.316 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:27:13.374 [info] > git show --textconv :index.html [7ms]
+2024-11-18 19:27:13.376 [info] > git ls-files --stage -- /root/index.html [4ms]
+2024-11-18 19:27:13.382 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1ms]
+2024-11-18 19:28:28.573 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [58ms]
+2024-11-18 19:28:28.573 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:28:28.683 [info] > git show --textconv :styles.css [8ms]
+2024-11-18 19:28:28.687 [info] > git ls-files --stage -- /root/styles.css [5ms]
+2024-11-18 19:29:54.633 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [2ms]
+2024-11-18 19:29:54.634 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:29:54.802 [info] > git show --textconv :index.html [6ms]
+2024-11-18 19:29:54.805 [info] > git ls-files --stage -- /root/index.html [3ms]
+2024-11-18 19:29:54.810 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [1ms]
+2024-11-18 19:36:47.172 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [102ms]
+2024-11-18 19:36:47.179 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:36:47.469 [info] > git show --textconv :styles.css [253ms]
+2024-11-18 19:36:47.472 [info] > git ls-files --stage -- /root/styles.css [250ms]
+2024-11-18 19:37:48.609 [info] > git config --get commit.template [6ms]
+2024-11-18 19:37:48.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-11-18 19:37:48.627 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:37:48.649 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-18 19:37:49.173 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [4ms]
+2024-11-18 19:37:49.174 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:37:49.793 [info] > git ls-files --stage -- /root/styles.css [8ms]
+2024-11-18 19:37:49.813 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [15ms]
+2024-11-18 19:37:49.832 [info] > git show --textconv :styles.css [10ms]
+2024-11-18 19:37:51.092 [info] > git status -z -uall [2462ms]
+2024-11-18 19:38:03.416 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [3ms]
+2024-11-18 19:38:03.416 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:38:03.939 [info] > git config --get commit.template [21ms]
+2024-11-18 19:38:03.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-18 19:38:03.942 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:38:03.976 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-18 19:38:04.016 [info] > git ls-files --stage -- /root/styles.css [4ms]
+2024-11-18 19:38:04.022 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-11-18 19:38:04.025 [info] > git status -z -uall [69ms]
+2024-11-18 19:38:05.766 [info] > git show --textconv :styles.css [11ms]
+2024-11-18 19:38:50.477 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/index.html [3ms]
+2024-11-18 19:38:50.477 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:38:50.648 [info] > git ls-files --stage -- /root/index.html [4ms]
+2024-11-18 19:38:50.664 [info] > git show --textconv :index.html [24ms]
+2024-11-18 19:38:50.665 [info] > git cat-file -s 6c63d5b16d2a7f60cbc67370be313f1fcfc3a61b [13ms]
+2024-11-18 19:38:52.140 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [4ms]
+2024-11-18 19:38:52.140 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:38:52.344 [info] > git show --textconv :styles.css [10ms]
+2024-11-18 19:38:52.349 [info] > git ls-files --stage -- /root/styles.css [6ms]
+2024-11-18 19:38:52.359 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-11-18 19:47:40.283 [info] > git config --get commit.template [175ms]
+2024-11-18 19:47:40.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [215ms]
+2024-11-18 19:47:40.352 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:47:40.390 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-11-18 19:47:42.830 [info] > git status -z -uall [2470ms]
+2024-11-18 19:50:28.221 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [112ms]
+2024-11-18 19:50:28.269 [info] fatal: bad revision 'refs/heads/main'
+2024-11-18 19:50:28.270 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2024-11-18 19:50:28.993 [info] > git check-ignore -v -z --stdin [47ms]
+2024-11-18 19:50:31.098 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2024-11-18 19:50:31.098 [info] fatal: bad revision 'refs/heads/main'
+2024-11-18 19:50:31.098 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2024-11-18 19:50:34.850 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-18 19:50:35.708 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-18 19:50:37.383 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-18 19:50:38.595 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 19:50:39.443 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 19:50:40.898 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 19:50:41.810 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 19:50:55.313 [info] > git add -A -- /root/index.html /root/styles.css [301ms]
+2024-11-18 19:50:55.334 [info] > git config --get commit.template [7ms]
+2024-11-18 19:50:55.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [257ms]
+2024-11-18 19:50:55.590 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:50:55.651 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+2024-11-18 19:50:56.468 [info] > git ls-files --stage -- /root/styles.css [4ms]
+2024-11-18 19:50:56.474 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [2ms]
+2024-11-18 19:50:56.488 [info] > git show --textconv :styles.css [4ms]
+2024-11-18 19:50:57.915 [info] > git status -z -uall [2319ms]
+2024-11-18 19:51:00.508 [info] > git -c user.useConfigOnly=true commit --quiet [2354ms]
+2024-11-18 19:51:00.508 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-11-18 19:51:00.526 [info] > git config --get-all user.name [13ms]
+2024-11-18 19:51:00.535 [info] > git config --get commit.template [31ms]
+2024-11-18 19:51:00.548 [info] > git config --get-all user.email [14ms]
+2024-11-18 19:51:00.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-11-18 19:51:00.557 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:51:00.560 [info] > git config --get commit.template [4ms]
+2024-11-18 19:51:00.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-18 19:51:00.574 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:51:00.589 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-18 19:51:00.662 [info] > git status -z -uall [82ms]
+2024-11-18 19:51:51.635 [info] > git ls-files --stage -- /root/styles.css [162ms]
+2024-11-18 19:51:51.670 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [29ms]
+2024-11-18 19:51:51.688 [info] > git show --textconv :styles.css [6ms]
+2024-11-18 19:51:52.457 [info] > git config --get commit.template [7ms]
+2024-11-18 19:51:52.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-11-18 19:51:52.477 [warning] [Git][getBranch] No such branch: main
+2024-11-18 19:51:52.493 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-18 19:51:54.924 [info] > git status -z -uall [2441ms]
+2024-11-18 19:52:07.056 [info] > git show --textconv HEAD:styles.css [17ms]
+2024-11-18 19:52:07.056 [info] > git show --textconv :styles.css [11ms]
+2024-11-18 19:52:07.057 [info] > git ls-tree -l HEAD -- /root/styles.css [6ms]
+2024-11-18 19:52:07.057 [info] fatal: Not a valid object name HEAD
+2024-11-18 19:52:07.059 [info] > git ls-files --stage -- /root/styles.css [6ms]
+2024-11-18 19:52:07.068 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [2ms]
+2024-11-18 19:52:07.567 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 19:52:24.418 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [3ms]
+2024-11-18 19:52:24.418 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:52:28.989 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [3ms]
+2024-11-18 19:52:28.989 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:52:29.185 [info] > git show --textconv :styles.css [8ms]
+2024-11-18 19:52:29.189 [info] > git ls-files --stage -- /root/styles.css [5ms]
+2024-11-18 19:52:29.196 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [2ms]
+2024-11-18 19:52:31.796 [info] > git ls-files --stage -- /root/styles.css [7ms]
+2024-11-18 19:52:31.806 [info] > git ls-tree -l HEAD -- /root/styles.css [27ms]
+2024-11-18 19:52:31.806 [info] fatal: Not a valid object name HEAD
+2024-11-18 19:52:31.811 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [5ms]
+2024-11-18 19:52:31.812 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [18ms]
+2024-11-18 19:52:31.812 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:52:34.790 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /root/styles.css [4ms]
+2024-11-18 19:52:34.790 [info] fatal: your current branch 'main' does not have any commits yet
+2024-11-18 19:52:34.985 [info] > git show --textconv :styles.css [8ms]
+2024-11-18 19:52:34.990 [info] > git ls-files --stage -- /root/styles.css [6ms]
+2024-11-18 19:52:34.997 [info] > git cat-file -s c2d4689ca8ac668307b88323b9c82602b50657c4 [2ms]
+2024-11-19 10:08:36.436 [info] > git config --get commit.template [1590ms]
+2024-11-19 10:08:36.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1861ms]
+2024-11-19 10:08:36.903 [warning] [Git][getBranch] No such branch: main
+2024-11-19 10:08:37.215 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [130ms]
+2024-11-19 10:09:04.174 [info] > git status -z -uall [27265ms]
